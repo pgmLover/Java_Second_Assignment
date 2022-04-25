@@ -3,6 +3,7 @@
 package com.company;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 //import java.util.Date;-
 public class Main {
@@ -15,7 +16,9 @@ String name=sc.nextLine();
 List <Character> li=new ArrayList<Character>();
 for (int i=0; i<name.length();i++){
     li.add(name.charAt(i));
+
 }
+
 li.add(li.get(0));
 li.add('a');
 li.add('y');
@@ -25,6 +28,10 @@ for(char j:li){
      pig +=j;
 }
 System.out.println(pig);
+
+
+
+
     }
 }
 
